@@ -1,6 +1,8 @@
 import { useState } from "react";
 import "./App.css";
 import profileImage from "./assets/profile.jpg";
+import { FaGithub } from "react-icons/fa";
+import { FiExternalLink } from "react-icons/fi";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -309,18 +311,22 @@ function App() {
 
               <div className="project-buttons">
   <a
-    href="https://github.com/Anuchandra17/JobFinder"
+    href="YOUR_JOBFINDER_GITHUB_URL"
     target="_blank"
     rel="noreferrer"
     className="project-btn github-btn"
   >
+    <FaGithub />
     GitHub
   </a>
 
   <a
-    href="#"
+    href="YOUR_JOBFINDER_DEMO_URL"
+    target="_blank"
+    rel="noreferrer"
     className="project-btn demo-btn"
   >
+    <FiExternalLink />
     Live Demo
   </a>
 </div>
@@ -357,18 +363,22 @@ function App() {
 
              <div className="project-buttons">
   <a
-    href="https://github.com/"
+    href="YOUR_SMART_IRRIGATION_GITHUB_URL"
     target="_blank"
     rel="noreferrer"
     className="project-btn github-btn"
   >
+    <FaGithub />
     GitHub
   </a>
 
   <a
-    href="#"
+    href="YOUR_SMART_IRRIGATION_DEMO_URL"
+    target="_blank"
+    rel="noreferrer"
     className="project-btn demo-btn"
   >
+    <FiExternalLink />
     Live Demo
   </a>
 </div>
@@ -378,38 +388,55 @@ function App() {
 
             {/* PROJECT 3 */}
 
-            <div className="project-card">
+<div className="project-card">
 
-              <div className="project-number">
-                03
-              </div>
+  <div className="project-number">
+    03
+  </div>
 
-              <h3>
-                Personal Developer Portfolio
-              </h3>
+  <h3>
+    Personal Developer Portfolio
+  </h3>
 
-              <p>
-                A responsive personal portfolio website
-                developed to showcase my technical skills,
-                projects, education and contact information.
-              </p>
+  <p>
+    A responsive personal portfolio website
+    developed to showcase my technical skills,
+    projects, education and contact information.
+  </p>
 
-              <p className="project-tech">
-                <strong>
-                  Technologies:
-                </strong>{" "}
-                HTML5, CSS3, JavaScript,
-                React.js, Vite
-              </p>
+  <p className="project-tech">
+    <strong>
+      Technologies:
+    </strong>{" "}
+    HTML5, CSS3, JavaScript,
+    React.js, Vite
+  </p>
 
-              <a
-                href="#"
-                className="project-link"
-              >
-                View Project →
-              </a>
+  <div className="project-buttons">
 
-            </div>
+    <a
+      href="https://github.com/Anuchandra17/Portfolio"
+      target="_blank"
+      rel="noreferrer"
+      className="project-btn github-btn"
+    >
+      <FaGithub />
+      GitHub
+    </a>
+
+    <a
+      href="https://anuchandra17.github.io/Portfolio/"
+      target="_blank"
+      rel="noreferrer"
+      className="project-btn demo-btn"
+    >
+      <FiExternalLink />
+      Live Demo
+    </a>
+
+  </div>
+
+</div>
 
           </div>
 
