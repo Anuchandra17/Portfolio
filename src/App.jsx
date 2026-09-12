@@ -497,6 +497,15 @@ function App() {
             </a>
           </p>
         </div>
+        {/* Phone */}
+<div className="contact-item">
+  <strong>Phone</strong>
+  <p>
+    <a href="tel:+917899990724">
+      +91 7899990724
+    </a>
+  </p>
+</div>
 
         {/* LinkedIn */}
         <div className="contact-item">
