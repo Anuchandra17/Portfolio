@@ -492,7 +492,7 @@ function App() {
         <div className="contact-item">
           <strong>Email</strong>
           <p>
-            <a href="mailto:YOUR_EMAIL@gmail.com">
+            <a href="mailto:anuyadav9949@gmail.com">
               anuyadav9949@gmail.com
             </a>
           </p>
