@@ -227,8 +227,7 @@ function App() {
 
   <div className="skill-list">
     <span>SQL</span>
-    <span>SQLite</span>
-    <span>Database Design</span>
+    
   </div>
 </div>
 
