@@ -310,7 +310,7 @@ function App() {
 
               <div className="project-buttons">
   <a
-    href="https://github.com/"
+    href="https://github.com/Anuchandra17/JobFinder"
     target="_blank"
     rel="noreferrer"
     className="project-btn github-btn"
@@ -493,7 +493,7 @@ function App() {
           <strong>Email</strong>
           <p>
             <a href="mailto:YOUR_EMAIL@gmail.com">
-              YOUR_EMAIL@gmail.com
+              anuyadav9949@gmail.com
             </a>
           </p>
         </div>
@@ -503,7 +503,7 @@ function App() {
           <strong>LinkedIn</strong>
           <p>
             <a
-              href="YOUR_LINKEDIN_URL"
+              href="linkedin.com/in/c-g-anuchandra"
               target="_blank"
               rel="noreferrer"
             >
@@ -517,7 +517,7 @@ function App() {
           <strong>GitHub</strong>
           <p>
             <a
-              href="YOUR_GITHUB_URL"
+              href="https://github.com/Anuchandra17"
               target="_blank"
               rel="noreferrer"
             >
