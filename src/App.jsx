@@ -291,7 +291,7 @@ function App() {
               </div>
 
               <h3>
-                JobFinder - Full Stack Job Portal
+                Job Finder - Full Stack Job Portal
               </h3>
 
               <p>
