@@ -41,8 +41,7 @@ function App() {
 
          <div className="hero-text">
   <p className="hero-small-text">Hello, I'm</p>
-
-  <h1>Chakibanda Golla Anuchandra</h1>
+  <h1>C.G Anu Chandra</h1>
 
   <h2>Python Full Stack Developer</h2>
 
@@ -311,7 +310,7 @@ function App() {
 
               <div className="project-buttons">
   <a
-    href="YOUR_JOBFINDER_GITHUB_URL"
+    href="https://github.com/Anuchandra17/Job-Finder"
     target="_blank"
     rel="noreferrer"
     className="project-btn github-btn"
@@ -321,7 +320,7 @@ function App() {
   </a>
 
   <a
-    href="YOUR_JOBFINDER_DEMO_URL"
+    href="https://github.com/Anuchandra17/Job-Finder"
     target="_blank"
     rel="noreferrer"
     className="project-btn demo-btn"
@@ -336,62 +335,10 @@ function App() {
 
             {/* PROJECT 2 */}
 
-            <div className="project-card">
-
-              <div className="project-number">
-                02
-              </div>
-
-              <h3>
-                Smart Irrigation System using AI and IoT
-              </h3>
-
-              <p>
-                An intelligent irrigation system that monitors
-                soil moisture and uses data analysis to help
-                predict watering requirements and improve
-                water efficiency.
-              </p>
-
-              <p className="project-tech">
-                <strong>
-                  Technologies:
-                </strong>{" "}
-                Python, Artificial Intelligence,
-                Machine Learning, IoT, Cloud
-              </p>
-
-             <div className="project-buttons">
-  <a
-    href="YOUR_SMART_IRRIGATION_GITHUB_URL"
-    target="_blank"
-    rel="noreferrer"
-    className="project-btn github-btn"
-  >
-    <FaGithub />
-    GitHub
-  </a>
-
-  <a
-    href="YOUR_SMART_IRRIGATION_DEMO_URL"
-    target="_blank"
-    rel="noreferrer"
-    className="project-btn demo-btn"
-  >
-    <FiExternalLink />
-    Live Demo
-  </a>
-</div>
-
-            </div>
-
-
-            {/* PROJECT 3 */}
-
-<div className="project-card">
+           <div className="project-card">
 
   <div className="project-number">
-    03
+    02
   </div>
 
   <h3>
@@ -437,6 +384,39 @@ function App() {
   </div>
 
 </div>
+
+
+            {/* PROJECT 3 */}
+
+ <div className="project-card">
+
+              <div className="project-number">
+                03
+              </div>
+
+              <h3>
+                Smart Irrigation System using AI and IoT
+              </h3>
+
+              <p>
+                An intelligent irrigation system that monitors
+                soil moisture and uses data analysis to help
+                predict watering requirements and improve
+                water efficiency.
+              </p>
+
+              <p className="project-tech">
+                <strong>
+                  Technologies:
+                </strong>{" "}
+                Python, Artificial Intelligence,
+                Machine Learning, IoT, Cloud
+              </p>
+
+             
+
+
+            </div>
 
           </div>
 
@@ -623,7 +603,7 @@ function App() {
       <footer className="footer">
 
         <p>
-          © 2026 Chakibanda Golla Anuchandra.
+          © 2026 C.G Anu Chandra.
           All rights reserved.
         </p>
 
